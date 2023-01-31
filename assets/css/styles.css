@@ -802,10 +802,7 @@ img {
   align-items: center;
 }
 
-.slider-container .slide img {
-  height: auto;
-  width: 100%;
-}
+
 
 .slider-container .active {
   display: block;
