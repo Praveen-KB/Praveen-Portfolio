@@ -114,7 +114,6 @@ next.onclick = nextSlide;
 function prevSlide() {
     slides[index].classList.remove("active");
     index--;
-    console.log(index);
     if (index < 0) {
         index = slides.length - 1;
     }
@@ -124,11 +123,9 @@ function prevSlide() {
 function nextSlide() {
     slides[index].classList.remove("active");
     index++;
-    console.log(index);
     if (index === slides.length) {
         index = 0;
     }
-    console.log(index);
     slides[index].classList.add("active");
 }
 /*==================== TESTIMONIAL ====================*/
@@ -195,10 +192,6 @@ if (selectedTheme) {
     // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
     document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme);
     themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme);
-
-    console.log(mainSectionImg.href.baseVal);
-    console.log(mainSectionImg.href.animVal);
-    console.log(aboutSectionImg);
 }
 
 if (selectedTheme === "dark") {
