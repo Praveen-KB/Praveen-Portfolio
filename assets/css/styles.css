@@ -718,6 +718,7 @@ img {
 
 .services__modal-service {
   display: flex;
+  color: var(--first-color-alt);
 }
 
 .services__modal-title {
