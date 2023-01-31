@@ -524,11 +524,11 @@ img {
 }
 
 .skills__js {
-  width: 70%;
+  width: 60%;
 }
 
 .skills__react {
-  width: 85%;
+  width: 40%;
 }
 
 .skills__php {
@@ -536,15 +536,15 @@ img {
 }
 
 .skills__node {
-  width: 80%;
-}
-
-.skills__firebase {
   width: 70%;
 }
 
+.skills__express {
+  width: 60%;
+}
+
 .skills__python {
-  width: 55%;
+  width: 60%;
 }
 
 .skills__figma {
