@@ -646,6 +646,15 @@ img {
   color: var(--first-color);
 }
 
+.qualification__center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+}
+
 /*==================== SERVICES ====================*/
 .services__container {
   gap: 1.5rem;
@@ -718,7 +727,7 @@ img {
 
 .services__modal-service {
   display: flex;
-  color: var(--first-color-alt);
+
 }
 
 .services__modal-title {
