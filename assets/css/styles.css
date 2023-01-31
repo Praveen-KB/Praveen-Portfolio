@@ -827,7 +827,15 @@ img {
   color: var(--first-color-alt);
 }
 
+.prev:hover {
+  transform: translateX(-4px);
+  transition: .3s;
+}
 
+.next:hover {
+  transform: translateX(4px);
+  transition: .3s;
+}
 
 
 
